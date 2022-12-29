@@ -12,20 +12,20 @@
     "migration-script": "cd ./src/CursoOnline.Dados/ && dotnet ef --startup-project ../CursoOnline.Web/CursoOnline.Web.csproj migrations script",
     "remove-migration": "cd ./src/CursoOnline.Dados/ && dotnet ef --startup-project ../CursoOnline.Web/CursoOnline.Web.csproj migrations remove",
     "update-database": "cd ./src/CursoOnline.Dados/ && dotnet ef --startup-project ../CursoOnline.Web/CursoOnline.Web.csproj database update",
-    "testCafe": "./node_modules/.bin/testcafe chrome test/e2e -S -s screenshots"
+    "testCafe": "./node_modules/.bin/testcafe chrome e2e"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/StephanyBatista/CursoOnline.git"
+    "url": "git+https://github.com/Ron-69/CursoOnline.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/StephanyBatista/CursoOnline/issues"
+    "url": "https://github.com/Ron-69/CursoOnline/issues"
   },
-  "homepage": "https://github.com/StephanyBatista/CursoOnline#readme",
+  "homepage": "https://github.com/Ron-69/CursoOnline#readme",
   "devDependencies": {
     "faker": "^4.1.0",
-    "testcafe": "^0.20.5"
+    "testcafe": "^2.1.0"
   }
 }
